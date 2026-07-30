@@ -1,3 +1,5 @@
+<h2>FastAPI Weather App:</h2>
+
 I have been working in the backend for now more than 2 years and setup APIs, wrote small automation using python and Linux bash and 
 suddenly realised "why not create some projects to be able to relate my work"
 So here is me trying to do some relatable projects and posting on github.
