@@ -11,7 +11,8 @@ from slowapi.errors import RateLimitExceeded
 from slowapi.middleware import SlowAPIMiddleware
 from fastapi import Request
 
-limiter = Limiter(key_func=get_remote_address)
+limiter = Limiter(key_func=get_remote_address) #basically here we add limiter functionality from slowapi lib 
+                                               # and it basically gets the remote address to make sure that the actor is not rogue
 
 app = FastAPI()
 
