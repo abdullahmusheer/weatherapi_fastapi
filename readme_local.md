@@ -15,7 +15,9 @@ So here is a quick info on the files: so you will have to create few files which
 3. weather.py - this is our main API vendor that we are wrapping around and creating our own api from.essentially data is from them.
 
 other files:
-4. .env  : for storing sensitive data ofcourse
-5. gitignore : for GIT to not push sensitive files entered into this file unto the github repository
+4. .env  - for storing sensitive data ofcourse
+5. gitignore - for GIT to not push sensitive files entered into this file unto the github repository
 6. you can do a pip freeze requirement to get requirements.txt later
 7. As usual using a dedicated python env ceates a .venv folder 
+
+Will anyone be coming here and reading it in the world of AI ? perhaps not 
